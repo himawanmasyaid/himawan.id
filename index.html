@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Software Engineer</title>
+    <title>HMWN</title>
+    <link rel="stylesheet" href="animation/animation-keyframe.css" />
     <style>
       body {
         background-color: #0a0b1e;
@@ -12,6 +13,7 @@
         align-items: center;
         margin: 0;
         padding: 0;
+        overflow: hidden; /* Prevents scrollbars */
       }
 
       .container {
@@ -21,6 +23,7 @@
         align-items: center;
         height: 100vh;
         padding: 20px;
+        animation: fadeIn 1s forwards; /* Fade-in animation */
       }
 
       .name-tag {
@@ -37,6 +40,7 @@
         font-size: 64px;
         font-weight: 800;
         margin: 0;
+        animation: bounce 1s infinite; /* Bounce animation */
       }
 
       .subtitle {
@@ -69,7 +73,6 @@
           font-size: 24px;
         }
       }
-
     </style>
   </head>
   <body>
